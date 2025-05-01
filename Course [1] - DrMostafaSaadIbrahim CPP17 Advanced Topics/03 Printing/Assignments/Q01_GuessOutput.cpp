@@ -11,8 +11,10 @@
 
 // Library Include.
 #include <iostream>
+// Namespaces.
 using namespace std;
 
+// Driver Code.
 int main()
 {
     cout << "\n\nGuess the "
@@ -31,7 +33,6 @@ int main()
 
     /*  OUTPUT:
 
-
                 Guess the output
                 ---
                 25
@@ -39,5 +40,5 @@ int main()
                 7
 
                 Practuce Makes PerfectThe Way to get started is to stop Talking and start Doing
-        */
+    */
 }
