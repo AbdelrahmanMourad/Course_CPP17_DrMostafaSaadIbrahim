@@ -5,7 +5,7 @@
 		* We know we will read 8 numbers
 		* 	The first number is the first odd
 		* 	The third number is the second odd
-		* 	The fifth number is the their odd
+		* 	The fifth number is the third odd
 		* 	The seventh number is the forth odd
 		*
 		* The same logic for even numbers
