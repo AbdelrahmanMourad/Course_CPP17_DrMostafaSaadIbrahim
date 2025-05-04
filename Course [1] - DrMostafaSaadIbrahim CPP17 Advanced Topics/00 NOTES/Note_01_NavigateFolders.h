@@ -5,15 +5,17 @@
 /*
     Folder Navigation Commands Comparison (CMD vs. Bash)
     ----------------------------------------------------
-    
-    | Command        | CMD (Windows)         | Bash (Linux/macOS)    |
-    |---------------|----------------------|----------------------|
+    _______________________________________________________________
+    |               |                       |                     |
+    | Command       | CMD (Windows)         | Bash (Linux/macOS)  |
+    |---------------|-----------------------|---------------------|
     | Move Forward  | cd folder_name        | cd folder_name      |
     | Move Backward | cd ..                 | cd ..               |
     | Move to Path  | cd C:\Path\To\Folder  | cd /path/to/folder  |
     | Move to Home  | N/A (No shortcut)     | cd ~                |
     | Move to Root  | cd /                  | cd /                |
     | Previous Dir  | N/A                   | cd -                |
+    |_______________|_______________________|_____________________|
 
 */
 
