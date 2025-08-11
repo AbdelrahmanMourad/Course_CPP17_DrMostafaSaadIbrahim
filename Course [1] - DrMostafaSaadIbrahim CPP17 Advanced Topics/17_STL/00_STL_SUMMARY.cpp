@@ -58,6 +58,10 @@ STL
         ○   Learning them = makes studying data structures course easier
         ○   Using templates: Generic containers
     ●   STL also provides set of algorithms to act on these containers
+    
+    1.  {"Templates"}: make {"algorithms"} independent of the {"data types"}.
+    2.  {"Iterators"}: make {"algorithms"} independent of the {"containers"}.
+
 
 
 =================================================================================================   
