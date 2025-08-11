@@ -1,8 +1,3 @@
-/*  =================================================================================================
-                                    Header Guard File
-    =================================================================================================  */
-#ifndef MY_PAIR_H
-#define MY_PAIR_H
 /*
 =================================================================================================
 SUMMARY: pair
@@ -20,6 +15,12 @@ SUMMARY: pair
 */
 
 /*  =================================================================================================
+                                    Header Guard File
+    =================================================================================================  */
+#ifndef MY_PAIR_H
+#define MY_PAIR_H
+
+/*  =================================================================================================
                                     Included Libraries
     =================================================================================================  */
 #include <iostream>
@@ -28,7 +29,7 @@ SUMMARY: pair
 /*  =================================================================================================
                                     Declarations/ Prototypes
     =================================================================================================  */
-namespace namespace_tuple
+namespace namespace_pair
 {
     void main1_Declaraions_Operations(void);
     void main2_Pair_Comparison(void);
@@ -50,7 +51,7 @@ namespace namespace_tuple
                                     Implementations
     =================================================================================================  */
 /*_________________Public_Functions_________________*/
-void namespace_tuple::main1_Declaraions_Operations(void)
+void namespace_pair::main1_Declaraions_Operations(void)
 {
     std::pair<int, std::string> pair1 = std::make_pair(10, "Abdelrahman");
     std::cout << "pair1.first= " << pair1.first << "\t,pair1.secone= " << pair1.second << "\n";
@@ -84,7 +85,7 @@ void main2_Pair_Comparison(void)
     MyStack1.push(std::make_pair(10, std::make_pair("Mostafa", 20))); //  P4 = (10, (mostafa, 20))
 
     // Print using function.
-    namespace_tuple::print_stack_of_pair_of_pair(MyStack1);
+    namespace_pair::print_stack_of_pair_of_pair(MyStack1);
 
     // Print here.
     while (!MyStack1.empty())

@@ -1,9 +1,3 @@
-/*  =================================================================================================
-                                    Header Guard File
-    =================================================================================================  */
-#ifndef MY_PRIORITY_DEQUE_H
-#define MY_PRIORITY_DEQUE_H
-
 /*
 =================================================================================================
 SUMMARY: priority_queue
@@ -23,10 +17,7 @@ SUMMARY: priority_queue
         ● Custom comparators allow min-heap or user-defined ordering.
         ● Useful for scheduling, greedy algorithms, and anytime you need quick access to the highest/lowest priority item.
 
-=================================================================================================
-*/
 
-/*
 =================================================================================================
 SUMMARY: STL Queue, Deque, and Priority Queue Demonstration
 =================================================================================================
@@ -52,6 +43,12 @@ This application demonstrates the usage and operations of three STL container ad
 Each namespace contains example functions to illustrate the main features and usage patterns of these containers.
 =================================================================================================
 */
+
+/*  =================================================================================================
+                                    Header Guard File
+    =================================================================================================  */
+#ifndef MY_PRIORITY_DEQUE_H
+#define MY_PRIORITY_DEQUE_H
 
 /*  =================================================================================================
                                     Included Libraries
