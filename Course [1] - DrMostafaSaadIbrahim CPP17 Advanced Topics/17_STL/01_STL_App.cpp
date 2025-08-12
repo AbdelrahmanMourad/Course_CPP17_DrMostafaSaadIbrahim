@@ -8,6 +8,19 @@
 #include "05_Stack.h"
 #include "07_Pair.h"
 #include "08_Tuple.h"
+#include "09_Iterator.h"
+#include "10_STL_wRangeBasedLoops.h"
+#include "11_vactor.h"
+#include "13_STL_String.h"
+#include "15_STL_Algorithm.h"
+#include "16_Set.h"
+#include "17_Unordered_Set.h"
+#include "18_Map.h"
+#include "20_lab4.h"
+#include "21_lab5.h"
+#include "22_lab6.h"
+#include "23_lab7.h"
+#include "27_Structured_Binding.h"
 
 /*  =================================================================================================
                                     Declarations/ Prototypes
@@ -34,11 +47,15 @@ int main()
     // namespace_priority_queue::main5_user_type();
 
     // // 7_pair
-    namespace_pair::main1_Declaraions_Operations();
-    namespace_pair::main2_Pair_Comparison();
+    // namespace_pair::main1_Declaraions_Operations();
+    // namespace_pair::main2_Pair_Comparison();
 
     // // 8_tuple
-    namespace_tuple::main1_Declaraions_Operations();
+    // namespace_tuple::main1_Declaraions_Operations();
+
+    // 9_iterators
+    namespace_STL_Iterators::main1_print_deque_using_iterators();
+    
 
     return 0;
 }

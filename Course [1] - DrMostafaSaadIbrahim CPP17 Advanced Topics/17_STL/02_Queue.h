@@ -74,7 +74,6 @@ void namespace_queue::main1_Declaraions_Operations(void)
             This operation is performed in constant time and does not invalidate iterators or references. */
     q2.swap(q1);
 }
-
 void namespace_queue::main2_Print_Queue(void)
 {
     // Deque for direct initialization.
