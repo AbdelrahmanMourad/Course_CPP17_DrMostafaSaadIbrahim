@@ -30,7 +30,7 @@ namespace private_pair_helping_funcations
 };
 
 /*_________________Public_Functions_________________*/
-namespace namespace_tuple
+namespace namespace_stack
 {
     void main1_Declaraions_Operations(void);
 };
@@ -51,7 +51,7 @@ void private_pair_helping_funcations::stack_print(std::stack<std::string> &S)
 }
 
 /*_________________Public_Functions_________________*/
-void namespace_tuple::main1_Declaraions_Operations(void)
+void namespace_stack::main1_Declaraions_Operations(void)
 {
     std::stack<std::string> stack_string;
     stack_string.push("Ibrahim");

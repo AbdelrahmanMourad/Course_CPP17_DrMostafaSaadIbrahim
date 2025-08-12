@@ -9,18 +9,18 @@
 #include "07_Pair.h"
 #include "08_Tuple.h"
 #include "09_Iterator.h"
-#include "10_STL_wRangeBasedLoops.h"
-#include "11_vactor.h"
-#include "13_STL_String.h"
-#include "15_STL_Algorithm.h"
-#include "16_Set.h"
-#include "17_Unordered_Set.h"
-#include "18_Map.h"
-#include "20_lab4.h"
-#include "21_lab5.h"
-#include "22_lab6.h"
-#include "23_lab7.h"
-#include "27_Structured_Binding.h"
+// #include "10_STL_wRangeBasedLoops.h"
+// #include "11_vactor.h"
+// #include "13_STL_String.h"
+// #include "15_STL_Algorithm.h"
+// #include "16_Set.h"
+// #include "17_Unordered_Set.h"
+// #include "18_Map.h"
+// #include "20_lab4.h"
+// #include "21_lab5.h"
+// #include "22_lab6.h"
+// #include "23_lab7.h"
+// #include "27_Structured_Binding.h"
 
 /*  =================================================================================================
                                     Declarations/ Prototypes
@@ -45,6 +45,9 @@ int main()
     // namespace_priority_queue::main3_min_heap();
     // namespace_priority_queue::main4_custom_comparator();
     // namespace_priority_queue::main5_user_type();
+
+    // // 5_stack
+    // namespace_stack::main1_Declaraions_Operations();
 
     // // 7_pair
     // namespace_pair::main1_Declaraions_Operations();
