@@ -191,6 +191,9 @@ Next
                 |                                                                   |
                 |       set <string> :: iterator it2;                               |
                 |                                                                   |
+                |       // Each iterm is: pair <int , string>                       |
+                |                                                                   |
+                |                                                                   |
                 |       for( auto it = str.begin(); it != str.end(); ++it )         |
                 |       {                                                           |
                 |           char ch = *it;                                          |
